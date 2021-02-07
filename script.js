@@ -15,8 +15,14 @@ function getApi() {
         .then(function (data) {
             console.log(data);
 
+            var city = $("#city");
+            city.text(requestCity);
             var temp = $("#temp");
-            temp.text("Temperature: " + data.main.temp);
+            temp.text("Temperature: " + data.main.temp + "F");
+            var humidity = $("#humidity");
+            humidity.text("Humidity: " + data.main.humidity + "%");
+            var wind = $("#wind");
+            wind.text("Wind Speed: " + data.wind.speed + "mph");
         });
     if (localStorage.getItem("searchedcities") === null) {
         searchedcities.push(requestCity);
@@ -26,8 +32,6 @@ function getApi() {
         searchedcities.push(requestCity);
         localStorage.setItem("searchedcities", JSON.stringify(searchedcities));
     };
-
-
 }
 
 function forecast() {
