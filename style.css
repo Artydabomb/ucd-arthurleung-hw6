@@ -1,0 +1,38 @@
+.container-fluid.overflow-hidden{
+    background-color: #ff6961;
+    color: white;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+
+.m-2{
+    height: 33vh;
+}
+
+#bar{
+    border-style: solid;
+    border-color: black;
+    height: 12vh;
+}
+#current{
+    border-style: solid;
+    border-color: black;
+}
+#cities{
+    border-style: solid;
+    border-color: black;
+    height: 54vh;
+}
+#forecast{
+    border-style: solid;
+    border-color: black;
+}
+
+.footer {
+    padding: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
