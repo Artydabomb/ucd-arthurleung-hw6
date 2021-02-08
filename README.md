@@ -12,9 +12,9 @@ Internet access is required this webpage. The URL is attached below:
 
 [Weather Application] https://artydabomb.github.io/ucd-arthurleung-hw6/
 
-A sample picture of the webpage is as is (progress pending:
+A sample picture of the webpage is as is (progress pending):
 
-<img src="Sample.png">
+<img src="./Sample.png">
 
 <strong>Code Modified by Arthur Leung</strong>
 
